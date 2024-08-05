@@ -1,14 +1,16 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Comment;
 
-package Comments;
+import Users.User;
 
 /**
  *
- * @author bizco
+ * @author jcone
  */
-
-import Users.User;
-public class comment {
-    
+public class Comments {
     private int id;
     private User user;
     private String comment;
@@ -28,21 +30,23 @@ public class comment {
     public void setComment(String comment) {
         this.comment = comment;
     }
+    
 
-    public comment(int id, User user, String comment) {
+    public Comments(int id, User user, String comment) {
         this.id = id;
         this.user = user;
         this.comment = comment;
     }
-        public comment() {
-        this.id = 0;
-        this.user = null;
-        this.comment = "";
+
+    public Comments() {
+        this(0,null,"");
     }
 
     @Override
     public String toString() {
-        return "comment{" + "id=" + id + ", user=" + user + ", comment=" + comment + '}';
+        return "Comments{" + "id=" + id + ", user=" + user + ", comment=" + comment + '}';
     }
+   
+    
     
 }

@@ -2,13 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package projectmanager.lider;
+package proyectmanager.lider;
 
 /**
  *
- * @author jcone
+ * @author bizco
  */
-public class ProjectManagerLider {
+public class ProyectManagerLider {
 
     /**
      * @param args the command line arguments
