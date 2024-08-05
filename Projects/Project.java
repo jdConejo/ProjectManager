@@ -16,7 +16,8 @@ public class Project {
     private int id;
     private String name;
     private HashSet<Task> tasks;
-
+    private double percentage;
+    
     public int getId() {
         return id;
     }
@@ -27,6 +28,28 @@ public class Project {
 
     public HashSet<Task> getTasks() {
         return tasks;
+    }
+
+    public int numbertasks() {
+        int max;
+        max = tasks.size();
+        return max;
+
+    }
+
+ public double calculateCompletedPercentage() {
+        if (tasks.isEmpty()) {
+            return 0.0;
+        }
+
+        int completedTasks = 0;
+        for (Task task : tasks) {
+            if (task.isComplete()) {
+                completedTasks++;
+            }
+        }
+
+        return (completedTasks / (double) tasks.size()) * 100.0;
     }
 
     public Project(int id, String name, HashSet<Task> tasks) {
