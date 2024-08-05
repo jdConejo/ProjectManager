@@ -41,19 +41,15 @@ public class Project {
         this.tasks = new HashSet();
     }
 
-<<<<<<< HEAD
     public Task FindTask(int id) {
         for (Task task : tasks) {
             if (task.getId() == id) {
                 return task;
             }
-
         }
         return null;
     }
 
-=======
->>>>>>> 6527d365504977045732780a13c7e8a314f5ab1c
     @Override
     public String toString() {
         return "Project{" + "id=" + id + ", name=" + name + ", tasks=" + tasks + '}';
