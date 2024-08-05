@@ -38,8 +38,6 @@ public class Task {
     public void setComplete(boolean complete) {
         this.complete = complete;
     }
-
-    
     
     public ArrayList<Comments> getComments() {
         return comments;

@@ -8,7 +8,7 @@ import Users.User;
  *
  * @author jcone
  */
-public class Comments {
+public class Comments {  
     private int id;
     private User user;
     private String comment;
