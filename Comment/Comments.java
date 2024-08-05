@@ -3,9 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package Comment;
-
 import Users.User;
-
 /**
  *
  * @author jcone
@@ -33,7 +31,8 @@ public class Comments {
     
 
     public Comments(int id, User user, String comment) {
-        this.id = id;
+        this.id = id = 1;
+        id++;
         this.user = user;
         this.comment = comment;
     }

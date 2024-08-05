@@ -30,7 +30,8 @@ public class Project {
     }
 
     public Project(int id, String name, HashSet<Task> tasks) {
-        this.id = id;
+        this.id = id = 1;
+        id++;
         this.name = name;
         this.tasks = tasks;
     }

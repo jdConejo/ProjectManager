@@ -46,7 +46,9 @@ public class Task {
     }
 
     public Task(int id, String description, boolean complete, User user, ArrayList<Comments> comments) {
-        this.id = id;
+        int contador = 1;
+        this.id = id = contador;
+        contador++;
         this.description = "Pendiente";
         this.complete = complete;
         this.user = user;
