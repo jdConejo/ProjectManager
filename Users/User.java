@@ -8,7 +8,7 @@ package Users;
  *
  * @author jcone
  */
-public class User {
+public class user {
     private String id;
     private String name;
     private String email;
@@ -32,13 +32,13 @@ public class User {
     
     
     
-    public User(String id, String name, String email) {
+    public user(String id, String name, String email) {
         this.id = id;
         this.name = name;
         this.email = email;
     }
 
-    public User() {
+    public user() {
         this("","","");
     }
 
